@@ -22,6 +22,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import com.example.inventory.data.Item
 import com.example.inventory.data.ItemsRepository
+import kotlinx.coroutines.flow.StateFlow
 import java.text.NumberFormat
 
 /**
